@@ -11,5 +11,5 @@ message = "Hello"; //"Hello" (String) is stored in the variable "message"
 // access the variable
 
 let message = "Hello"; // statement + variable + operator + Value
-console.log(message); // shows the variable in Terminal
+console.log(message); // shows the variable in the output console
 
