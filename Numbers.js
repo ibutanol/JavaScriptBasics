@@ -32,3 +32,11 @@ let x = 5;
 let y = 2;
 let z = x % y;
 console.log(z);
+
+console.log(23 +20);
+
+const MAX = 57;
+let actual = MAX - 13;
+let percentage = actual / MAX;
+
+console.log(percentage);
