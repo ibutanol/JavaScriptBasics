@@ -16,3 +16,9 @@ console.log(message); // shows the variable in the output console
 // const are statements which cant be changed (unchanging) variables
 
 const myBirthday = '18.04.1982' // "18.04.1982" cant be changed otherwise an error is thrown
+
+
+// Summary: We can declare variables to store data by using the var, let, or const keywords.
+let //is a modern variable declaration
+var //is aa old variable declaration
+const //is like let but the variable can't be changed
