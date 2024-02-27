@@ -2,40 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        console.log("Hello, world!")
-    </script>
-</body>
-</html>
-
-<!-- JavaScript ueber einen externes Script einfuegen -->
-<script src="javascript.js"></script>
-<!-- external JavaScripts werden oft fuer komplexe Script genutzt -->
-
-<!-- Next Lesson -->
-<!-- cd repos\JavaScriptBasics\Variables.js -->
-<script>
-console.log(23 +20);
-</script>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JavaScript Addition</title>
+    <title>JavaScript Numbers</title>
 </head>
 <body>
     <h1>Addition in JavaScript</h1>
+    
+    <!-- Create a div to display the result -->
+    <div id="result"></div>
+    
     <script>
-const MAX = 57;
-let actual = MAX - 13;
-let percentage = actual / MAX;
+        const MAX = 57;
+        let actual = MAX - 13;
+        let percentage = actual / MAX;
 
-console.log(percentage);
+        // Select the div with id "result"
+        let resultDiv = document.getElementById("result");
+
+        // Set the innerHTML of the div to display the result
+        resultDiv.innerHTML = `Percentage: ${percentage * 100}%`;
     </script>
 </body>
 </html>
